@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'maven-publish'
 }
 
@@ -8,12 +8,10 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.github.deebash.getit"
         minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
